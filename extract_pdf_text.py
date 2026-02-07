@@ -1,7 +1,8 @@
+# Text Extraction form PDF - Text Processing Project
 import PyPDF2 as pf
 
 
-pdf = open(r"C:\Users\SHIV-G\Desktop\Desk\Projects\Streamlit\Pdf Text Extractor\doc1.pdf", "rb")
+pdf = open(r"your_file_name", "rb")
 
 
 # 1. Extract all Pages
@@ -50,4 +51,5 @@ def pdf_length(pdf):
     reader = pf.PdfReader(pdf)
     print(len(reader.pages))
 # pdf_length(pdf)
+
 
