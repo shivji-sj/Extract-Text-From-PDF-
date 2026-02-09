@@ -1,4 +1,4 @@
-# Text Extraction form PDF - Text Processing Project
+# Text Extraction form PDF - Text Processing Project / OCR Project
 import PyPDF2 as pf
 
 
@@ -51,5 +51,6 @@ def pdf_length(pdf):
     reader = pf.PdfReader(pdf)
     print(len(reader.pages))
 # pdf_length(pdf)
+
 
 
